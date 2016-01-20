@@ -1,0 +1,29 @@
+{
+    "name": "weew/php-router-entities-resolver",
+    "description": "Resolves doctrine entities in the weew/php-router package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Kott",
+            "email": "maximkott@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "weew/php-router-container-aware": "^1.2",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7",
+        "satooshi/php-coveralls": "^0.6.1"
+    }
+}
