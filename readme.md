@@ -35,7 +35,7 @@ $resolver
 
 Now you can resolve entities as with any regular parameter resolver.
 
-```
+```php
 $router->get('api/v1/users/{user}', function(User $user) {
     // entitiy will be injected instead of a user id
 });
