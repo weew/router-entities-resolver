@@ -38,7 +38,7 @@ class EntitiesResolver implements IEntitiesResolver {
             ));
         }
 
-        if ( ! in_array(ObjectRepository::class, class_implements($repositoryClass))) {
+        if ( ! array_contains(class_implements($repositoryClass), ObjectRepository::class)) {
             throw new InvalidRepositoryClassException(s(
                 'Class "%s" must implement interface "%s".',
                 $repositoryClass,
