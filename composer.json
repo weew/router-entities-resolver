@@ -1,6 +1,6 @@
 {
-    "name": "weew/php-router-entities-resolver",
-    "description": "Resolves doctrine entities in the weew/php-router package.",
+    "name": "weew/router-entities-resolver",
+    "description": "Resolves doctrine entities in the weew/router package.",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
         }
     },
     "require": {
-        "weew/php-router-container-aware": "^1.2",
+        "weew/router-container-aware": "^1.2",
         "doctrine/orm": "^2.5"
     },
     "require-dev": {

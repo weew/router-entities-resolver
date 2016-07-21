@@ -10,7 +10,7 @@
          syntaxCheck="false"
          bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="php-router-entities-resolver">
+        <testsuite name="router-entities-resolver">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
